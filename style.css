@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-pills{
+    margin: 1%;
+}
+.d-flex{
+    
+    padding-left: 517px;
+}
+
+.head{
+    align-content: baseline;
+    padding-left: 30px;
+    background-color: darkgray;
+
+}
+
+#i{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Carousel */
+.carousel {
+    margin-top: 1rem;
+    
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  
+  /* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  .carousel-control-next {
+    right: 0;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+
+}
+
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button {
+    border-radius: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+.card{
+   
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+.card-body{
+    height: 200px;
+}
+
+.img{
+    height: 200px;
+    width: 235px;
+    border-radius: 3%;
+}
+
+.card-text{
+    margin-left: 60px;
+}
+.card-title{
+    margin-left: 60px;
+    
+}
+
+  /* footer area */
+
+.py-5{
+    margin-top: 100px;
+}
+
+#button{
+    margin-top: 10px;
+
+}
+
+#search-area{
+    padding: 1px;
+}
+
+
+.bi{
+    padding-right: 10px;
+}
+
